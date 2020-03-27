@@ -1,0 +1,13 @@
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\bin\Debug\netcoreapp3.1\Decider.exe
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\bin\Debug\netcoreapp3.1\Decider.deps.json
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\bin\Debug\netcoreapp3.1\Decider.runtimeconfig.json
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\bin\Debug\netcoreapp3.1\Decider.runtimeconfig.dev.json
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\bin\Debug\netcoreapp3.1\Decider.dll
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\bin\Debug\netcoreapp3.1\Decider.pdb
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\obj\Debug\netcoreapp3.1\Decider.csprojAssemblyReference.cache
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\obj\Debug\netcoreapp3.1\Decider.csproj.CoreCompileInputs.cache
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\obj\Debug\netcoreapp3.1\Decider.AssemblyInfoInputs.cache
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\obj\Debug\netcoreapp3.1\Decider.AssemblyInfo.cs
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\obj\Debug\netcoreapp3.1\Decider.dll
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\obj\Debug\netcoreapp3.1\Decider.pdb
+C:\Users\jaspe\source\repos\Project C Sharp\Decider\obj\Debug\netcoreapp3.1\Decider.genruntimeconfig.cache

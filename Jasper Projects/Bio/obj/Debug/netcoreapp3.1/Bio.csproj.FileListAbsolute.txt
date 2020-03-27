@@ -1,0 +1,12 @@
+C:\Users\jaspe\source\repos\Project C Sharp\Bio\bin\Debug\netcoreapp3.1\Bio.exe
+C:\Users\jaspe\source\repos\Project C Sharp\Bio\bin\Debug\netcoreapp3.1\Bio.deps.json
+C:\Users\jaspe\source\repos\Project C Sharp\Bio\bin\Debug\netcoreapp3.1\Bio.runtimeconfig.json
+C:\Users\jaspe\source\repos\Project C Sharp\Bio\bin\Debug\netcoreapp3.1\Bio.runtimeconfig.dev.json
+C:\Users\jaspe\source\repos\Project C Sharp\Bio\bin\Debug\netcoreapp3.1\Bio.dll
+C:\Users\jaspe\source\repos\Project C Sharp\Bio\bin\Debug\netcoreapp3.1\Bio.pdb
+C:\Users\jaspe\source\repos\Project C Sharp\Bio\obj\Debug\netcoreapp3.1\Bio.csproj.CoreCompileInputs.cache
+C:\Users\jaspe\source\repos\Project C Sharp\Bio\obj\Debug\netcoreapp3.1\Bio.AssemblyInfoInputs.cache
+C:\Users\jaspe\source\repos\Project C Sharp\Bio\obj\Debug\netcoreapp3.1\Bio.AssemblyInfo.cs
+C:\Users\jaspe\source\repos\Project C Sharp\Bio\obj\Debug\netcoreapp3.1\Bio.dll
+C:\Users\jaspe\source\repos\Project C Sharp\Bio\obj\Debug\netcoreapp3.1\Bio.pdb
+C:\Users\jaspe\source\repos\Project C Sharp\Bio\obj\Debug\netcoreapp3.1\Bio.genruntimeconfig.cache

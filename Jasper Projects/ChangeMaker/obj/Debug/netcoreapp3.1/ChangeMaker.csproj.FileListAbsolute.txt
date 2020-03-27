@@ -1,0 +1,12 @@
+C:\Users\jaspe\source\repos\Project C Sharp\ChangeMaker\bin\Debug\netcoreapp3.1\ChangeMaker.exe
+C:\Users\jaspe\source\repos\Project C Sharp\ChangeMaker\bin\Debug\netcoreapp3.1\ChangeMaker.deps.json
+C:\Users\jaspe\source\repos\Project C Sharp\ChangeMaker\bin\Debug\netcoreapp3.1\ChangeMaker.runtimeconfig.json
+C:\Users\jaspe\source\repos\Project C Sharp\ChangeMaker\bin\Debug\netcoreapp3.1\ChangeMaker.runtimeconfig.dev.json
+C:\Users\jaspe\source\repos\Project C Sharp\ChangeMaker\bin\Debug\netcoreapp3.1\ChangeMaker.dll
+C:\Users\jaspe\source\repos\Project C Sharp\ChangeMaker\bin\Debug\netcoreapp3.1\ChangeMaker.pdb
+C:\Users\jaspe\source\repos\Project C Sharp\ChangeMaker\obj\Debug\netcoreapp3.1\ChangeMaker.csproj.CoreCompileInputs.cache
+C:\Users\jaspe\source\repos\Project C Sharp\ChangeMaker\obj\Debug\netcoreapp3.1\ChangeMaker.AssemblyInfoInputs.cache
+C:\Users\jaspe\source\repos\Project C Sharp\ChangeMaker\obj\Debug\netcoreapp3.1\ChangeMaker.AssemblyInfo.cs
+C:\Users\jaspe\source\repos\Project C Sharp\ChangeMaker\obj\Debug\netcoreapp3.1\ChangeMaker.dll
+C:\Users\jaspe\source\repos\Project C Sharp\ChangeMaker\obj\Debug\netcoreapp3.1\ChangeMaker.pdb
+C:\Users\jaspe\source\repos\Project C Sharp\ChangeMaker\obj\Debug\netcoreapp3.1\ChangeMaker.genruntimeconfig.cache
