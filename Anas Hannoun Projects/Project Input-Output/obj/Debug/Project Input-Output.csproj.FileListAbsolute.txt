@@ -1,0 +1,6 @@
+C:\Group4Repository\Anas Hannoun Projects\Project Input-Output\bin\Debug\Project Input-Output.exe.config
+C:\Group4Repository\Anas Hannoun Projects\Project Input-Output\bin\Debug\Project Input-Output.exe
+C:\Group4Repository\Anas Hannoun Projects\Project Input-Output\bin\Debug\Project Input-Output.pdb
+C:\Group4Repository\Anas Hannoun Projects\Project Input-Output\obj\Debug\Project Input-Output.csproj.CoreCompileInputs.cache
+C:\Group4Repository\Anas Hannoun Projects\Project Input-Output\obj\Debug\Project Input-Output.exe
+C:\Group4Repository\Anas Hannoun Projects\Project Input-Output\obj\Debug\Project Input-Output.pdb
