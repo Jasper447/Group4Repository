@@ -1,0 +1,7 @@
+C:\Group4Repository\Anas Hannoun Projects\Project mini Bio\bin\Debug\Project mini Bio.exe.config
+C:\Group4Repository\Anas Hannoun Projects\Project mini Bio\bin\Debug\Project mini Bio.exe
+C:\Group4Repository\Anas Hannoun Projects\Project mini Bio\bin\Debug\Project mini Bio.pdb
+C:\Group4Repository\Anas Hannoun Projects\Project mini Bio\obj\Debug\Project mini Bio.csprojAssemblyReference.cache
+C:\Group4Repository\Anas Hannoun Projects\Project mini Bio\obj\Debug\Project mini Bio.csproj.CoreCompileInputs.cache
+C:\Group4Repository\Anas Hannoun Projects\Project mini Bio\obj\Debug\Project mini Bio.exe
+C:\Group4Repository\Anas Hannoun Projects\Project mini Bio\obj\Debug\Project mini Bio.pdb
