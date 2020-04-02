@@ -1,0 +1,30 @@
+CREATE TABLE INVOICE (
+InvoiceId int IDENTITY(1,1) PRIMARY KEY,
+InvoiceDate date DEFAULT GETDATE() NOT NULL,
+BillingAddress nvarchar(70),
+BillingCity nvarchar(40),
+BillingState nvarchar(40),
+BillingCity_1 nvarchar(40),
+BillingPostalCode nvarchar(10),
+Total decimal(10,2) NOT NULL,
+CustomerId int NOT NULL
+);
+
+CREATE TABLE CUSTOMER (
+CustomerId int IDENTITY(1,1) PRIMARY KEY,
+FirstName nvarchar(40) NOT NULL,
+LastName nvarchar(100) NOT NULL,
+Company nvarchar(80),
+Address nvarchar(80),
+City nvarchar(80),
+State nvarchar(80),
+Country nvarchar(80),
+PostalCode nvarchar(80),
+Phone nvarchar(80),
+Fax nvarchar(80),
+Email nvarchar(80),
+EmployeeId int NOT NULL
+);
+
+ALTER TABLE INVOICE ADD FOREIGN KEY (CustomerId) REFERENCES CUSTOMER(CustomerId);
+ALTER TABLE CUSTOMER ADD FOREIGN KEY (EmployeeId) REFERENCES EMPLOYEE(EmployeeId);
