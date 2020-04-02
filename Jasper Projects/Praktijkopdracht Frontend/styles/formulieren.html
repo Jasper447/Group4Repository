@@ -1,0 +1,109 @@
+Het complete code van het formulier
+<!DOCTYPE html>
+<html>
+<head lang="nl">
+ <meta charset="UTF-8">
+ <title>HTML-formulieren verzenden</title>
+ <style>
+ body {
+ font-family: Arial, Helvetica, Sans-Serif;
+ }
+ form{
+ width: 100%;
+}
+label{
+ float: left;
+ width: 15em;
+ text-align: right;
+}
+textarea{
+ float: left;
+ text-align: left;
+
+}
+ </style>
+</head>
+<body>
+<h1>Een formulier verzenden naar een script</h1>
+<form method="post">
+ <fieldset>
+ <legend>Subscribe adresgegevens</legend>
+ <label for="naam">Naam:</label>
+ <input type="text" name="naam" id="naam" required><br/>
+ <label for="adres">Adres:</label>
+ <input type="text" name="adres" id="adres"required><br/>
+ <label for="postcode">Postcode:</label>
+ <input type="text" name="postcode" id="postcode" required><br/>
+ <label for="plaats">Plaats:</label>
+ <input type="text" name="plaats" id="plaats" required><br/>
+
+ <label for="Geboortedatum">Geboortedatum</label>
+ <input type="date" name="Geboortedatum" id="Geboortedatum" required><br/>
+ </fieldset>
+ <br/>
+ <fieldset>
+ <legend>Geslacht </legend>
+ <label>Gender</label>
+ <input type="radio" name="gender" value="male" id="male">Male</input>
+ <input type="radio" name="gender" value="female" id="female">Female</input>
+ <input type="radio" name="gender" value="other" id="other">Other</input>
+ </fieldset>
+ <br/>
+
+ <fieldset>
+ <legend>Wat wilt u graag toegevoegd zien op deze site?</legend>
+ <input type="checkbox" name="afbeelding" id="afbeelding"/>
+ <label for="afbeelding">Meer afbeeldingen</label><br/>
+ <input type="checkbox" name="favorieten" id="favorieten"/>
+ <label for="favorieten">Favoriete websites</label><br/>
+ <input type="checkbox" name="audio" id="audio"/>
+ <label for="audio">Meer geluidsfragmenten</label><br/>
+ <input type="checkbox" name="video" id="video"/>
+ <label for="video">Meer videobeelden</label><br/>
+ </fieldset>
+ <br/>
+ <fieldset>
+ <legend>Werk ervaring</legend>
+ <label for="experience">Ervaring</label>
+ <select name="ervaring" id="select">
+ <option value="nul"></option>
+ <option value="een">één jaar</option>
+ <option value="twee">twee jaar</option>
+ <option value="drie">drie jaar</option>
+ <option value="meer">meer dan drie jaar</option>
+ </select>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <fieldset>
+ <legend>Werk ervaring in dagen</legend>
+ <label>Dagen per week</label>
+ <input type="number" name="dagenPerWeek" min="0" max="7" value="0">
+
+ </fieldset>
+ </fieldset>
+ <br/>
+ <fieldset>
+ <legend>Kunt u een algemeen oordeel geven over deze site?</legend>
+ <input type="radio" name="oordeel" value="zeergoed"> Zeer goed
+ <input type="radio" name="oordeel" value="goed"> Goed
+ <input type="radio" name="oordeel" value="matig"> Mwaaa...
+ <input type="radio" name="oordeel" value="slecht"> Slecht
+ <input type="radio" name="oordeel" value="zeerslecht"> Slecht
+ </fieldset>
+ <br/>
+ <fieldset>
+ <legend>Je kunt hier een bericht achter laten</legend>
+ <label for="msg">Je bericht:</label>
+ <textarea id="msg" name="gebruikers_bericht" rows="4" cols="50"></textarea>
+ </fieldset>
+ <br/>
+ <fieldset>
+ <legend>Formulier verzenden of leegmaken</legend>
+ <input type="submit" value="Formulier verzenden"/>
+ <input type="reset" value="Leegmaken"/>
+ </fieldset>
+</form>
+</body>
+</html>
