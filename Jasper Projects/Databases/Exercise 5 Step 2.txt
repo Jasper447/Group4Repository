@@ -1,0 +1,74 @@
+CREATE TABLE INVOICE (
+InvoiceId int IDENTITY(1,1) PRIMARY KEY,
+InvoiceDate date DEFAULT GETDATE() NOT NULL,
+BillingAddress nvarchar(70),
+BillingCity nvarchar(40),
+BillingState nvarchar(40),
+BillingCity_1 nvarchar(40),
+BillingPostalCode nvarchar(10),
+Total decimal(10,2) NOT NULL,
+CustomerId int NOT NULL,
+)
+
+CREATE TABLE CUSTOMER (
+CustomerId int IDENTITY(1,1) PRIMARY KEY,
+FirstName nvarchar(40) NOT NULL,
+LastName nvarchar(100) NOT NULL,
+Company nvarchar(80),
+Address nvarchar(80),
+City nvarchar(80),
+State nvarchar(80),
+Country nvarchar(80),
+PostalCode nvarchar(80),
+Phone nvarchar(80),
+Fax nvarchar(80),
+Email nvarchar(80),
+EmployeeId int NOT NULL
+)
+
+CREATE TABLE EMPLOYEE
+(
+EmployeeID INT PRIMARY KEY,
+LastName NVARCHAR(100) NOT NULL,
+FirstName NVARCHAR(40) NOT NULL,
+Title NVARCHAR (30) NULL,
+BirthDate DATE NULL,
+HireDate DATE NULL,
+[Address] NVARCHAR (70) NULL,
+City NVARCHAR(40) NULL,
+[State] NVARCHAR(40) NULL,
+Country NVARCHAR(40) NULL,
+PostalCode NVARCHAR(10) NULL,
+Phone NVARCHAR (24) NULL,
+Fax NVARCHAR (24) NULL,
+Email NVARCHAR (60) NULL,
+EMPLOYEE_Employeeid INTEGER,
+)
+
+ALTER TABLE INVOICE ADD FOREIGN KEY (CustomerId) REFERENCES CUSTOMER(CustomerId);
+ALTER TABLE CUSTOMER ADD FOREIGN KEY (EmployeeId) REFERENCES EMPLOYEE(EmployeeId);
+
+CREATE TABLE TRACK
+(
+TrackID INT PRIMARY KEY,
+[Name] NVARCHAR (200) NOT NULL,
+Composer NVARCHAR (220) NULL,
+Milliseconds INT NULL,
+Bytes INT NULL,
+UnitPrice NUMERIC(10,2) NOT NULL,
+GENRE_GenreId INT NULL,
+ALBUM_AlbumId INT NOT NULL,
+MEDIA_TYPE_MediaTypeId INT NOT NULL,
+)
+
+CREATE TABLE INVOICE_ITEM(
+InvoiceItemId INT PRIMARY KEY,
+UnitPrice NUMERIC(10,2) NOT NULL,
+BillingAddress NVARCHAR(70) NOT NULL,
+Quantity INT NOT NULL,
+INVOICE INT NOT NULL,
+TRACK INT NOT NULL,
+)
+ALTER TABLE INVOICE_ITEM ADD FOREIGN KEY (TRACK) REFERENCES TRACK(TrackID)
+ALTER TABLE INVOICE_ITEM ADD FOREIGN KEY (INVOICE) REFERENCES INVOICE([InvoiceId])
+
