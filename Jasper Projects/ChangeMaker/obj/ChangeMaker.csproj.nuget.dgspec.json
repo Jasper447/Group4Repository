@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaspe\\source\\repos\\Project C Sharp\\ChangeMaker\\ChangeMaker.csproj": {}
+    "C:\\Users\\jaspe\\OneDrive\\Documenten\\Projects\\ROC\\databases\\Group4Repository\\Jasper Projects\\ChangeMaker\\ChangeMaker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaspe\\source\\repos\\Project C Sharp\\ChangeMaker\\ChangeMaker.csproj": {
+    "C:\\Users\\jaspe\\OneDrive\\Documenten\\Projects\\ROC\\databases\\Group4Repository\\Jasper Projects\\ChangeMaker\\ChangeMaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaspe\\source\\repos\\Project C Sharp\\ChangeMaker\\ChangeMaker.csproj",
+        "projectUniqueName": "C:\\Users\\jaspe\\OneDrive\\Documenten\\Projects\\ROC\\databases\\Group4Repository\\Jasper Projects\\ChangeMaker\\ChangeMaker.csproj",
         "projectName": "ChangeMaker",
-        "projectPath": "C:\\Users\\jaspe\\source\\repos\\Project C Sharp\\ChangeMaker\\ChangeMaker.csproj",
+        "projectPath": "C:\\Users\\jaspe\\OneDrive\\Documenten\\Projects\\ROC\\databases\\Group4Repository\\Jasper Projects\\ChangeMaker\\ChangeMaker.csproj",
         "packagesPath": "C:\\Users\\jaspe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaspe\\source\\repos\\Project C Sharp\\ChangeMaker\\obj\\",
+        "outputPath": "C:\\Users\\jaspe\\OneDrive\\Documenten\\Projects\\ROC\\databases\\Group4Repository\\Jasper Projects\\ChangeMaker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jaspe\\AppData\\Roaming\\NuGet\\NuGet.Config",
