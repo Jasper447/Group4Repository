@@ -1,0 +1,21 @@
+using System;
+
+namespace Opdrachten
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Anas";
+            string lastName = "Hannoun";
+            string age = "27";
+            string adress = "Jupiterstraat 151\n7521JL\tEnschede";
+            Console.WriteLine($"{name} {lastName}\n{age}\n{adress}");
+
+            Console.ReadLine();
+
+            Console.ReadKey();
+            
+        }
+    }
+}
