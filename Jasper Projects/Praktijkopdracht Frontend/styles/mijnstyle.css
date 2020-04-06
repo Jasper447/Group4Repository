@@ -1,35 +1,24 @@
-#nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    text-align: center;
-    border: 1px solid #555;
-  }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-  /* Adds borders between nav items */
+nav li {
+  float: left;
+}
 
- #nav li {
-    text-align: center;
-    border-bottom: 1px solid #555;
-  }
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-/* Remove the bottom border of the last list item to avoid double borders */
-
-  #nav li:last-child {
-    border-bottom: none;
-  }
-  
-  li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color on hover */
-  li a:hover {
-    background-color: #555;
-    color: white;
-  }
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
