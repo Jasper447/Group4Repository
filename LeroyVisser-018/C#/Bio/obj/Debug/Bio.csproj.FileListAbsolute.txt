@@ -1,0 +1,14 @@
+C:\Users\slier\source\repos\Endoor018\Bio\obj\Debug\Bio.csprojAssemblyReference.cache
+C:\Users\slier\source\repos\Endoor018\Bio\obj\Debug\Bio.csproj.CoreCompileInputs.cache
+C:\Users\slier\source\repos\Endoor018\Bio\bin\Debug\Bio.exe.config
+C:\Users\slier\source\repos\Endoor018\Bio\bin\Debug\Bio.exe
+C:\Users\slier\source\repos\Endoor018\Bio\bin\Debug\Bio.pdb
+C:\Users\slier\source\repos\Endoor018\Bio\obj\Debug\Bio.exe
+C:\Users\slier\source\repos\Endoor018\Bio\obj\Debug\Bio.pdb
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\Bio\bin\Debug\Bio.exe.config
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\Bio\bin\Debug\Bio.exe
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\Bio\bin\Debug\Bio.pdb
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\Bio\obj\Debug\Bio.csprojAssemblyReference.cache
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\Bio\obj\Debug\Bio.csproj.CoreCompileInputs.cache
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\Bio\obj\Debug\Bio.exe
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\Bio\obj\Debug\Bio.pdb

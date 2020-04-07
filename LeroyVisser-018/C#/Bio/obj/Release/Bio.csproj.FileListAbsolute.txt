@@ -1,0 +1,6 @@
+C:\Users\slier\source\repos\Endoor018\Bio\bin\Release\Bio.exe.config
+C:\Users\slier\source\repos\Endoor018\Bio\bin\Release\Bio.exe
+C:\Users\slier\source\repos\Endoor018\Bio\bin\Release\Bio.pdb
+C:\Users\slier\source\repos\Endoor018\Bio\obj\Release\Bio.csproj.CoreCompileInputs.cache
+C:\Users\slier\source\repos\Endoor018\Bio\obj\Release\Bio.exe
+C:\Users\slier\source\repos\Endoor018\Bio\obj\Release\Bio.pdb
