@@ -1,0 +1,57 @@
+#Div1 {
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin: 3% 0 3% 0;
+    text-align: center;
+}
+
+#Div2 {
+    background-color: yellow;
+    width: 80%;
+    height: 220px;
+    font-size: 15px;
+    margin: 20px 0 0 180px ;
+    text-align: center;
+    background-image: url("https://www.appythings.nl/wp-content/uploads/2018/06/google-logo-icon-PNG-Transparent-Background-GRAY.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#Div3 {
+    background-color: rgba(14, 132, 243, 0.808);
+    width: 80%x;
+    height: 150px;
+    margin: 0 50px 0 50px;
+    text-align: center;
+    background-image: url("http://icons.iconseeker.com/png/128/soft-dimension/firefox-1.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#Div4 {
+    background-color: rgba(52, 214, 61, 0.5);
+    width: 80%;
+    height: 100px;
+    margin: 10px 0 10px 140px;
+    text-align: center;
+}
+
+#Div4 p{
+    position: relative; top: 50%;
+    transform: translateY(-50%);
+    }
+
+#Div2:hover {
+    transform: translate(150, 0);
+    -webkit-transform: translate(150px,0); /** Safari & Chrome **/
+}
+
+#google {
+    float: right;
+}
+
+#firefox {
+    float: left;
+}
