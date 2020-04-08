@@ -1,0 +1,30 @@
+﻿using System;
+
+namespace Opdracht_days
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please Enter a date and I will tell you what the first day of the month was!\nDD/MM/YYYY");
+
+            DateTime date = Convert.ToDateTime(Console.ReadLine());
+
+            //Console.WriteLine(DateTime.IsLeapYear(date.Year));
+
+            int daynumber = date.Day - 1;
+            //Console.WriteLine(daynumber);
+            if (daynumber > 0)
+            {
+                DateTime firstDayDate = date.AddDays(-daynumber);
+
+                string firstDay = firstDayDate.ToString("dddd");
+                Console.WriteLine($"The firstDay was {firstDayDate} and it fell on a {firstDay}");
+            }
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
