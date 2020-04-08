@@ -1,0 +1,8 @@
+CREATE UNIQUE INDEX idx_invoice_id
+ON INVOICE(InvoiceId);
+
+CREATE UNIQUE INDEX idx_customer_id
+ON CUSTOMER(CustomerId);
+
+CREATE NONCLUSTERED INDEX idx_lastname_firstname
+ON CUSTOMER(LastName, FirstName);
