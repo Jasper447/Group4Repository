@@ -1,0 +1,18 @@
+CREATE TABLE tblProductionCompany(
+
+ProductionCompanyId INT IDENTITY(1,1) PRIMARY KEY,
+ProductionCompanyName NVARCHAR(50), /*ProductionCompanyName was 25 and the names were too long to be excuted! | Fixed! */
+Abbreviation NVARCHAR(3),
+)
+GO
+
+INSERT INTO tblProductionCompany(
+
+ProductionCompanyName,
+
+Abbreviation
+
+) VALUES ( 'British Broadcasting Corporation', 'BBC') , ('Canadian Broadcasting Corporation', 'CBC')
+GO
+
+Select * FROM tblProductionCompany

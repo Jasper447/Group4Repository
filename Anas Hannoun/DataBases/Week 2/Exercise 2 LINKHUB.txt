@@ -1,0 +1,97 @@
+CREATE DATABASE LINKHUB
+GO
+
+CREATE TABLE Users (
+UserID int  IDENTITY (1000, 1) PRIMARY KEY,
+UserName NVARCHAR(25) NOT NULL,
+Password NVARCHAR(255) NOT NULL,
+Image IMAGE NULL,
+Email NVARCHAR(100) NOT NULL,
+BirthDate date NULL
+)
+GO
+
+CREATE TABLE Catigories (
+CatigoryCode CHAR(3) NOT NULL,
+CatigoryName NVARCHAR(25) NOT NULL,
+Description NVARCHAR(255) NULL,
+)
+GO
+
+ALTER TABLE Catigories 
+ADD PRIMARY KEY (CatigoryCode)
+GO
+
+CREATE TABLE Urls (
+Url NVARCHAR(255) NOT NULL,
+CreationDate DATETIME NOT NULL,
+Description TEXT NULL,
+UserID int REFERENCES Users (UserID),
+CatigoryCode CHAR(3) REFERENCES Catigories (CatigoryCode),
+)
+GO
+
+INSERT INTO [Users] (
+[UserName],
+[Password],
+[Image],
+[Email],
+[BirthDate])
+
+VALUES (
+'Anas','A12345', NULL, 'anas@hotmail.com', '1995/04/15')
+GO
+
+INSERT INTO [Users] (
+[UserName],
+[Password],
+[Image],
+[Email],
+[BirthDate])
+
+VALUES (
+'Jan','Johanne5542', NULL, 'j.jan89@hotmail.com', '1989/05/22')
+GO
+
+INSERT INTO [Users] (
+[UserName],
+[Password],
+[Image],
+[Email],
+[BirthDate])
+
+VALUES (
+'Rayan','RPassword1928', NULL, 'r.johanson@gmail.com', '1990/11/18')
+GO
+
+INSERT INTO [Catigories] VALUES 
+('LRN','Learning', 'Online learning websites and platforms'), ('VDS', 'Videos', 'Watching videos and editing websites'), 
+('BLG','Blogs', ''), ('NWS','News', 'News, journal and newspapares websites'),('SOM','Social Media', 'All different social media websites')
+GO
+
+SELECT * FROM USERS
+
+SELECT * FROM Catigories
+
+ALTER TABLE Urls  ADD CONSTRAINT [Def_DATE] DEFAULT (CURRENT_TIMESTAMP) FOR [CreationDate]
+GO
+
+INSERT INTO [Urls](
+[UserID],
+[CatigoryCode],
+[Url],
+[Description]
+) VALUES ('1002','LRN','https://www.w3schools.com/','Best website to learn coding.'), ('1002','BLG','https://lifehacker.com/','Lifehacker is the ultimate authority on optimizing every aspect of your life. Do everything better.'),
+('1002','NWS','https://www.bbc.co.uk/','BBC News for up-to-the-minute news.'),
+('1003','LRN','https://courses.edx.org/','Access 2000 free online courses from 140 leading institutions worldwide.'),
+('1003','NWS','https://www.nu.nl/','The latest news first on NU.nl'),
+('1002','SOM','https://www.facebook.com/','Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.'),
+('1002','VDS','https://www.youtube.com/','Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.'),
+('1004','LRN','https://www.coursera.org/','Build skills with courses from top universities like Yale, Michigan, Stanford, and leading companies like Google and IBM.'),
+('1004','VDS','https://www.netflix.com/','Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.'),
+('1004','NWS','https://www.huffpost.com/','The latest stories and breaking news in politics, media and more from HuffPost.
+')
+GO
+
+Select * FROM Urls
+GO

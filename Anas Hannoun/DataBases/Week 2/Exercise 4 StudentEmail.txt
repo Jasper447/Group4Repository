@@ -1,0 +1,14 @@
+CREATE TABLE [dbo].[Student](
+ [Studentnummer] [char](7) PRIMARY KEY,
+ [Voornaam] [nvarchar](25) NOT NULL,
+ [Tussenvoegsels] [nvarchar](15) NULL,
+ [Achternaam] [nvarchar](100) NOT NULL,
+ [Geboortedatum] [date] NOT NULL,
+ [Woonplaats] [nvarchar](25) NOT NULL DEFAULT 'Hengelo',
+)
+GO
+
+
+ALTER TABLE Student 
+ADD EmailAdress VARCHAR(25)
+GO

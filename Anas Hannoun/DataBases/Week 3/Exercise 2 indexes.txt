@@ -1,0 +1,11 @@
+CREATE INDEX idx_CompanyName ON SalesLT.Customer (CompanyName)
+GO
+
+CREATE INDEX idx_First_Last_Name ON SalesLT.Customer (FirstName, LastName)
+GO
+
+CREATE INDEX idx_ProductCategoryID ON SalesLT.Product (ProductCategoryID)
+GO
+
+CREATE INDEX idx_Product_ModelID ON SalesLT.Product (ProductModelID)
+GO

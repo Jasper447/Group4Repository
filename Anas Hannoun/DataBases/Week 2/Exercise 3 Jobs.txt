@@ -1,0 +1,14 @@
+CREATE TABLE Jobs (
+job_id int IDENTITY (1,1) PRIMARY KEY,
+job_title NVARCHAR (20) NOT NULL,
+min_salary int CHECK (min_salary > 0) NOT NULL,
+max_salary int CHECK (max_salary BETWEEN 0 AND 25000) NOT NULL
+)
+GO
+
+INSERT INTO Jobs (
+[job_title], [min_salary], [max_salary])
+VALUES ('CEO','14000','22000')
+GO
+
+SELECT * FROM Jobs

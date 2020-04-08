@@ -1,0 +1,45 @@
+CREATE TABLE  Competitor 
+(
+	 CompetitorCode   nvarchar (6) PRIMARY KEY,
+	 Name   varchar (30) NOT NULL,
+	 Adress   varchar (max) NOT NULL,
+	 Date_Entered   varchar (10) NOT NULL,
+	 Strength_Of_Competition   varchar (8) NOT NULL,
+	 Comments   varchar (max) NULL,
+)
+GO
+
+CREATE TABLE TVAdvertisement
+(
+	TV_Station nvarchar(15) PRIMARY KEY,
+	City nvarchar(25) NOT NULL,
+	CostPerAdvertisement float NOT NULL,
+	TotalCostOfAllAdvertisement float NULL,
+	NumberOfAdvertisement varchar(4) NOT NULL,
+	Date_Of_Advertisement_1 varchar(12) NOT NULL,
+	Time_Of_Advertisement_1 int NULL,
+	Date_Of_Advertisement_2 varchar(12) NOT NULL,
+	Time_Of_Advertisement_2 int NULL,
+	Date_Of_Advertisement_3 varchar(12) NOT NULL,
+	Time_Of_Advertisement_3 int NULL,
+	Date_Of_Advertisement_4 varchar(12) NOT NULL,
+	Time_Of_Advertisement_4 int NULL,
+	Date_Of_Advertisement_5 varchar(12) NOT NULL,
+	Time_Of_Advertisement_5 int NULL,
+)
+GO
+
+CREATE TABLE Campaign_Response
+(
+
+	ResponseOccuredWhen datetime PRIMARY KEY,
+	RelevantProspect int NULL,
+	RespondedHow varchar(8) NOT NULL,
+	ChargeFromReferrer float NULL,
+	RevenueFromResponse float NULL,
+	ResponseProfit  AS (RevenueFromResponse-ChargeFromReferrer)
+)
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'(phone, email, fax, letter)' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Campaign_Response', @level2type=N'COLUMN',@level2name=N'RespondedHow'
+GO

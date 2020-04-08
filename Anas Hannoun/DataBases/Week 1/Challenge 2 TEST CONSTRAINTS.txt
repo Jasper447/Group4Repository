@@ -1,0 +1,14 @@
+
+INSERT INTO DirectMarketing.Opportunity
+           (
+		   [OpportunityID],
+[ProspectID],
+[Likelihood],
+[Rating],
+[EstimatedClosingDate],
+[EstimatedRevenue]
+)
+
+     VALUES
+           (1,1,8,'A','12/12/2013',123000.00)
+GO
