@@ -1,0 +1,60 @@
+html, body{
+    height: 100%;
+}
+#container{
+        height: 100%;
+    }
+#main{
+        overflow: auto;
+        padding-bottom: 100px;
+    }
+footer {
+        width: 100%;
+        display: inline-block;
+        margin: 32px 0;
+        height: 70px;
+        background-color: #999;
+    }  
+.copyright {
+        width: 50%;
+        float: left;
+    }
+p {
+        padding-left: 10%;
+        color: white;
+        font-size: 11px;
+        line-height: 70px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+.social {
+        width: 50%;
+        float: right;
+     }
+a {
+        float: left;
+        line-height: 70px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-weight: bold; 
+        }
+    
+.buttons {
+    background-color: RGBA(149, 82, 81, 1);
+    font-size: 19px;
+    width: 20%;
+    }    
+.home {
+    background-color: RGBA(149, 82, 81, 1);
+    font-size: 19px;
+    width: 30%;
+    }
+.buttons:hover{
+    background-color: RGB(155, 35, 53);
+    font-size: 200%;
+}
+.home:hover{
+    background-color: RGB(155, 35, 53);
+    font-size: 200%;
+}
