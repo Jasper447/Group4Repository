@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht4", "Opdracht5\Opdracht4.csproj", "{EFBF0952-B627-4816-8F32-B0C906A2BDCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht5", "Opdracht6\Opdracht5.csproj", "{349CDFD5-D4F6-4F24-B167-5FF121E0AA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht6", "Opdracht7\Opdracht6.csproj", "{E76B7ECE-52F2-4AAE-8516-DE8B0D7AAACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFBF0952-B627-4816-8F32-B0C906A2BDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBF0952-B627-4816-8F32-B0C906A2BDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBF0952-B627-4816-8F32-B0C906A2BDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBF0952-B627-4816-8F32-B0C906A2BDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{349CDFD5-D4F6-4F24-B167-5FF121E0AA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349CDFD5-D4F6-4F24-B167-5FF121E0AA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349CDFD5-D4F6-4F24-B167-5FF121E0AA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349CDFD5-D4F6-4F24-B167-5FF121E0AA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76B7ECE-52F2-4AAE-8516-DE8B0D7AAACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76B7ECE-52F2-4AAE-8516-DE8B0D7AAACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76B7ECE-52F2-4AAE-8516-DE8B0D7AAACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76B7ECE-52F2-4AAE-8516-DE8B0D7AAACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4A208CB-CDDE-40D9-9740-553582A1D0D6}
+	EndGlobalSection
+EndGlobal
