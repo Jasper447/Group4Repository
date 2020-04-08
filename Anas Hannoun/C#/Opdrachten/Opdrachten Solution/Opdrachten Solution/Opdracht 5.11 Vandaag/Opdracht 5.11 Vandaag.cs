@@ -1,0 +1,58 @@
+﻿using System;
+using System.Globalization;
+using System.Threading;
+
+namespace Vandaag
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DateTime thisMoment = DateTime.Now;
+
+            int thisYear = thisMoment.Year;
+
+            string thisMonth = thisMoment.ToString("MMMM");
+            string today = thisMoment.ToString("dddd");
+            int daysOfTheMonth = DateTime.DaysInMonth(thisYear, thisMoment.Month);
+
+            CultureInfo myCI = new CultureInfo("en-US");
+            Calendar myCal = myCI.Calendar;
+
+            CalendarWeekRule myCWR = myCI.DateTimeFormat.CalendarWeekRule;
+            DayOfWeek myFirstDOW = myCI.DateTimeFormat.FirstDayOfWeek;
+            int weekOfYear = myCal.GetWeekOfYear(thisMoment, myCWR, myFirstDOW);
+
+            int numberOfDay = thisMoment.DayOfYear;
+
+            Console.WriteLine($"It's now {thisMoment}");
+            Thread.Sleep(1000);
+
+            Console.WriteLine($"\nThis year is {thisYear}");
+            Thread.Sleep(1000);
+
+            Console.WriteLine($"\nThis month is {thisMonth}");
+            Thread.Sleep(1000);
+
+            Console.WriteLine($"\nToday is {today}");
+            Thread.Sleep(1000);
+
+            Console.WriteLine($"\nThis month has {daysOfTheMonth} days");
+            Thread.Sleep(1000);
+
+            Console.WriteLine($"\nThis is week number {weekOfYear} of year");
+            Thread.Sleep(1000);
+
+            Console.WriteLine($"\nAnd this is day number {numberOfDay} of the year");
+            Thread.Sleep(1000);
+
+            Console.WriteLine("\nThe program will exit now");
+
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.Write(". ");
+                Thread.Sleep(1000);
+            }
+        }
+    }
+}

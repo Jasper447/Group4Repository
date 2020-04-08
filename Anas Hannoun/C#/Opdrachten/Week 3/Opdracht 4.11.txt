@@ -1,0 +1,99 @@
+using System;
+
+namespace 4.11 Opdracht
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please Enter the number of the month you want to know how many days are in!");
+            Console.WriteLine("1.January\n2.February\n3.March\n4.April\n5.May\n6.june\n7.July\n8.August\n9.September\n10.October\n11.November\n12.December");
+            
+            int month = Convert.ToInt32(Console.ReadLine());
+            DateTime today = DateTime.Now;
+            string day;
+            int year = today.Year;
+            day = DateTime.Now.DayOfWeek.ToString();
+
+            if (day == "Saturday" || day == "Sunday")
+            {
+                Console.BackgroundColor = ConsoleColor.Red;
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"It's {DateTime.Now.DayOfWeek} today it's weekend!");
+            }
+            else
+            {
+                Console.WriteLine($"Today is {DateTime.Now.DayOfWeek} a week day!");
+            }
+            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+            {
+                Console.WriteLine("This year is a leap year!");
+            }
+            else
+            {
+                Console.WriteLine("This year is not a leap year!");
+            }
+
+
+            if (month > 12 || month < 1)
+            {
+                Console.WriteLine("Invalid Input!\nPress any key to end. . .");
+                Console.ReadKey();
+            }
+            else
+            {
+                switch (month)
+                {
+                    case 1:
+                        Console.WriteLine("Chosen month is 1 January and it has 31 days!");
+                        Console.ReadKey();
+                        break;
+                    case 2:
+                        Console.WriteLine("Chosen month is 2 February and it has 28 days in a normal year and 29 in a leap year!");
+                        Console.ReadKey();
+                        break;
+                    case 3:
+                        Console.WriteLine("Chosen month is 3 March and it has 31 days!");
+                        Console.ReadKey();
+                        break;
+                    case 4:
+                        Console.WriteLine("Chosen month is 4 April and it has 30 days!");
+                        Console.ReadKey();
+                        break;
+                    case 5:
+                        Console.WriteLine("Chosen month is 5 May and it has 31 days!");
+                        Console.ReadKey();
+                        break;
+                    case 6:
+                        Console.WriteLine("Chosen month is 6 June and it has 30 days!");
+                        Console.ReadKey();
+                        break;
+                    case 7:
+                        Console.WriteLine("Chosen month is 7 July and it has 31 days!");
+                        Console.ReadKey();
+                        break;
+                    case 8:
+                        Console.WriteLine("Chosen month is 8 August and it has 31 days!");
+                        Console.ReadKey();
+                        break;
+                    case 9:
+                        Console.WriteLine("Chosen month is 9 September and it has 30 days!");
+                        Console.ReadKey();
+                        break;
+                    case 10:
+                        Console.WriteLine("Chosen month is 10 October and it has 31 days!");
+                        Console.ReadKey();
+                        break;
+                    case 11:
+                        Console.WriteLine("Chosen month is 11 November and it has 30 days!");
+                        Console.ReadKey();
+                        break;
+                    case 12:
+                        Console.WriteLine("Chosen month is 12 December and it has 31 days!");
+                        Console.ReadKey();
+                        break;
+                }
+            }
+        }
+    }
+}

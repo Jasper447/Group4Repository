@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Oefenen
+{
+    class Program
+    {
+        private static void Main()
+        {
+            string fullName = "Anas Hannoun";
+            string age = "27";
+            string adress = "Jupiterstraat 151\n7521JL\tEnschede";
+
+            Console.WriteLine(fullName, Console.BackgroundColor = ConsoleColor.Yellow,
+            Console.ForegroundColor = ConsoleColor.Red);
+
+            Console.ResetColor();
+
+            Console.WriteLine($"\n{age}\n{adress}");
+
+            
+            Console.WriteLine("\nPress Enter to end.");
+
+
+            Console.ReadLine();
+
+
+
+            Console.ReadKey();
+
+        }
+    }
+}

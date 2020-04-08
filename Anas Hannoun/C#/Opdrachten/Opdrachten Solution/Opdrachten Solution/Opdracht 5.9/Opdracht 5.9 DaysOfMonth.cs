@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _5._9_Opdracht
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please enter the date you want to know how many days that month has!");
+            DateTime inputDate = Convert.ToDateTime(Console.ReadLine());
+
+            int dateMonth = inputDate.Month;
+
+            int dateYear = inputDate.Year;
+
+            Console.WriteLine(DateTime.DaysInMonth(dateYear, dateMonth));
+            Console.ReadKey();
+        }
+    }
+}

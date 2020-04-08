@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bio", "Bio\Bio.csproj", "{88A59B22-9550-437B-B728-A0656246C49E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputOutput", "Opdracht2\InputOutput.csproj", "{9566B90E-673A-44AC-AB6E-79B2E6F77A12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88A59B22-9550-437B-B728-A0656246C49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A59B22-9550-437B-B728-A0656246C49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A59B22-9550-437B-B728-A0656246C49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A59B22-9550-437B-B728-A0656246C49E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9566B90E-673A-44AC-AB6E-79B2E6F77A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9566B90E-673A-44AC-AB6E-79B2E6F77A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9566B90E-673A-44AC-AB6E-79B2E6F77A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9566B90E-673A-44AC-AB6E-79B2E6F77A12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35DE58D0-12A2-4805-B60F-3EA10ED4C982}
+	EndGlobalSection
+EndGlobal

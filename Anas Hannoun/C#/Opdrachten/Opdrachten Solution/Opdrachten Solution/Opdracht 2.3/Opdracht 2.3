@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Oefenen
+{
+    class Program
+    {
+        private static void Main()
+        {
+            Console.WriteLine("Please Enter The First Digit!");
+            decimal a = Convert.ToDecimal(Console.ReadLine());
+
+            Console.WriteLine("Please Enter The Second Digit!");
+            decimal b = Convert.ToDecimal(Console.ReadLine());
+
+            decimal c = a + b;
+            decimal d = a - b;
+            decimal e = b - a;
+            decimal f = a * b;
+            decimal g = a / b;
+            decimal r1 = Math.Round(g, 2);
+            decimal h = b / a;
+            decimal r2 = Math.Round(h, 2);
+            decimal i = a % b;
+            decimal j = b % a;
+
+
+
+            Console.WriteLine($"\n{a} + {b} = ", c);
+            Console.WriteLine($"{a} - {b} = ", d);
+            Console.WriteLine($"{b} - {a} = ", e);
+            Console.WriteLine($"{a} x {b} = ", f);
+            Console.WriteLine($"{a} / {b} = ", r1);
+            Console.WriteLine($"{b} / {a} = ", r2);
+            Console.WriteLine($"{a} % {b} = ", i);
+            Console.WriteLine($"{b} % {a} = ", j);
+
+            Console.WriteLine("\nPress Enter to end.");
+
+
+            Console.ReadLine();
+
+
+
+            Console.ReadKey();
+
+        }
+    }
+}

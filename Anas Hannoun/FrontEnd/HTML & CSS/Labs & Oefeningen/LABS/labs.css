@@ -1,0 +1,88 @@
+
+html{
+    height: 100%;
+    width: 100%;
+    background:#D6D6D6 ;
+    overflow: auto;
+}
+body{
+    width: 96%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    background-color:rgba(0,56,255,0.3);
+    font-family: Verdana, Arial, sans-serif;
+    color: black;
+    border: 1px solid;
+    overflow:inherit;
+    font-size:16px;
+    font-style:normal;
+}
+#div1 {
+    width: 96% ;
+    background-color: #bbea84c7;
+    align-items: center;
+    box-shadow:  4px 4px 10px black;
+    text-align: center;
+    width: auto;
+    height: 30px;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 5px;
+    display: block;
+
+}
+
+#div2 {
+    background-image: url(google.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: #bbea84c7;
+    align-items: center;
+    box-shadow: 4px 4px 10px black;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    width: 80%;
+    height: 300px;
+    font-size: 20px;
+    
+} 
+#div2 :hover{
+    float: right;
+}
+#div3{
+    background-image: url(firefox.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    background-color: rgb(205, 220,57, 0.37);
+    align-items: center;
+    box-shadow: 4px 4px 10px black;
+    text-align: center;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    margin-top: 3%;
+    font-size: 30px;
+} 
+
+#div4{
+    background-color: rgb(255, 235, 59, 0.27);       
+    box-shadow: 4px 4px 10px black;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3%;
+    width: 80%;
+    height: 130px;
+    font-size: 40px;
+}
+#div4 p{
+    color: crimson;
+    position: relative; 
+    top: 50%;
+    transform: translateY(-50%);
+}

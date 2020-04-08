@@ -7,7 +7,7 @@ BillingState nvarchar(40),
 BillingCity_1 nvarchar(40),
 BillingPostalCode nvarchar(10),
 Total decimal(10,2) NOT NULL,
-CustomerId int NOT NULL
+CUSTOMER_CustomerId int NOT NULL
 );
 
 CREATE TABLE CUSTOMER (
@@ -23,8 +23,8 @@ PostalCode nvarchar(80),
 Phone nvarchar(80),
 Fax nvarchar(80),
 Email nvarchar(80),
-EmployeeId int NOT NULL
+EMPLOYEE_EmployeeId int NOT NULL
 );
 
-ALTER TABLE INVOICE ADD FOREIGN KEY (CustomerId) REFERENCES CUSTOMER(CustomerId);
-ALTER TABLE CUSTOMER ADD FOREIGN KEY (EmployeeId) REFERENCES EMPLOYEE(EmployeeId);
+ALTER TABLE INVOICE ADD FOREIGN KEY (CUSTOMER_CustomerId) REFERENCES CUSTOMER(CustomerId);
+ALTER TABLE CUSTOMER ADD FOREIGN KEY (EMPLOYEE_EmployeeId) REFERENCES EMPLOYEE(EmployeeId);

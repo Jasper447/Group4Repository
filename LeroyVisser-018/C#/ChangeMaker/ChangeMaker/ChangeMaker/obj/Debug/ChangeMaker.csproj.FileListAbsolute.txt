@@ -1,0 +1,7 @@
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\ChangeMaker\ChangeMaker\ChangeMaker\bin\Debug\ChangeMaker.exe.config
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\ChangeMaker\ChangeMaker\ChangeMaker\bin\Debug\ChangeMaker.exe
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\ChangeMaker\ChangeMaker\ChangeMaker\bin\Debug\ChangeMaker.pdb
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\ChangeMaker\ChangeMaker\ChangeMaker\obj\Debug\ChangeMaker.csprojAssemblyReference.cache
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\ChangeMaker\ChangeMaker\ChangeMaker\obj\Debug\ChangeMaker.csproj.CoreCompileInputs.cache
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\ChangeMaker\ChangeMaker\ChangeMaker\obj\Debug\ChangeMaker.exe
+C:\Users\slier\source\repos\Endoor-2020-Group4\Leroy-018-C#\ChangeMaker\ChangeMaker\ChangeMaker\obj\Debug\ChangeMaker.pdb
