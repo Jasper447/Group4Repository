@@ -1,0 +1,16 @@
+-- create new table to hold rows
+CREATE TABLE tblProductionCompany
+(
+	ProductionCompanyId int IDENTITY(1,1) PRIMARY KEY,
+	ProductionCompanyName nvarchar(50),
+	Abbreviation nvarchar(10)
+);
+-- create 2 new rows
+INSERT INTO tblProductionCompany
+(
+	ProductionCompanyName,
+	Abbreviation
+) VALUES ('British Broadcasting Company', 'BBC'),
+		('Canadian Broadcasting Corporation', 'CBC');
+--show records
+SELECT ProductionCompanyID, ProductionCompanyName, Abbreviation FROM tblProductionCompany;
