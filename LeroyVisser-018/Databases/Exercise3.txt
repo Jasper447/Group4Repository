@@ -1,8 +1,0 @@
-CREATE TABLE Jobs(
-	job_id int IDENTITY(1,1) PRIMARY KEY,
-	job_title nvarchar(50),
-	min_salary int,
-	max_salary int,
-	CHECK (min_salary>=0),
-	CHECK (max_salary<=25000)
-	);
