@@ -1,0 +1,43 @@
+CREATE DATABASE Chinook;
+
+GO
+
+USE Chinook;
+
+GO
+
+CREATE TABLE MEDIA_TYPE(
+	MediaTypeId int PRIMARY KEY,
+	[Name] nvarchar(120) NOT NULL
+);
+
+CREATE TABLE GENRE(
+	GenreId int PRIMARY KEY,
+	[Name] nvarchar(120) NOT NULL
+);
+
+CREATE TABLE ARTIST(
+	ArtistId int PRIMARY KEY,
+	[Name] nvarchar(120) NOT NULL
+);
+
+CREATE TABLE ALBUM(
+	AlbumId int,
+	Title nvarchar(120),
+	ARTIST_ArtistId int,
+PRIMARY KEY (AlbumId),
+FOREIGN KEY (ARTIST_ArtistId) REFERENCES ARTIST (ArtistId)
+);
+
+CREATE TABLE PLAYLIST(
+	PlaylistId int PRIMARY KEY,
+	[Name] nvarchar(120) NOT NULL
+);
+
+CREATE TABLE PLAYLIST_TRACK(
+    PLAYLIST_PlaylistId int,
+    TRACK_TrackId int NOT NULL,
+PRIMARY KEY (PLAYLIST_PlaylistId , TRACK_TrackId ),
+FOREIGN KEY (PLAYLIST_PlaylistId) REFERENCES PLAYLIST (Playlistid),
+--FOREIGN KEY (TRACK_TrackId )REFERENCES TRACK(Trackid) <- Track moet nog toegevoegd worden
+);

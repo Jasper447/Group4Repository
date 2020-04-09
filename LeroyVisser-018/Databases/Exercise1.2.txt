@@ -1,0 +1,60 @@
+-- stap 1
+CREATE DATABASE LINKHUB;
+
+USE LINKHUB
+-- stap 2
+CREATE TABLE Users(
+	UserID int IDENTITY(1000,1) PRIMARY KEY,
+	UserName nvarchar(25)NOT NULL,
+	Psswrd nvarchar(255) NOT NULL,
+	Img varbinary(max) null,
+	Email nvarchar(100) NOT NULL,
+	Birthdate date null,
+)
+--stap 3
+CREATE TABLE Categories(
+	CategoryCode nchar(3) NOT NULL,
+	CategoryName nvarchar(25) NOT NULL,
+	[Description] nvarchar(255) null
+)
+--stap 4
+CREATE TABLE Urls(
+	[Url] nvarchar(255) NOT NULL,
+	CreationDate datetime NOT NULL,
+	[Description] nvarchar(max) null,
+	UserId int FOREIGN KEY REFERENCES Users(UserId),
+	CategoryCode nchar(3) FOREIGN KEY REFERENCES Categories(CategoryCode)
+)
+--toevoegen primary key CategoryCode
+ALTER TABLE Categories
+ADD PRIMARY KEY(CategoryCode);
+--stap 5
+
+--stap 6
+INSERT INTO Categories(CategoryCode, CategoryName, [Description])
+VALUES('ABC', 'Blabla', 'Blabla en blabla'),
+		('DEF', 'Blabla1', 'Blabla1 en blabla1'),
+		('GHI', 'Blabla2', 'Blabla2 en blabla2'),
+		('JKL', 'Blabla3', 'Blabla3 en blabla3'),
+		('MNO', 'Blabla4', 'Blabla4 en blabla4');
+
+INSERT INTO Users(Username, Psswrd, Email)
+VALUES('Leroy Visser', 'Blabla', 'leroyvisser@live.com'),
+		('Leroy Visser2', 'Blabla1', 'leroyvisser@hotmail.com'),
+		('Leroy Visser3', 'Blabla2', 'leroyvisser@gmail.com');
+
+INSERT INTO Urls([Url],CreationDate)
+VALUES('www.leroyvisser.nl','20120618 10:34:09'),
+		('www.leroyvisser.se','20120618 10:34:09'),
+		('www.leroyvisser.es','20120618 10:34:09'),
+		('www.leroyvisser.co.uk','20120618 10:34:09'),
+		('www.leroyvisser.be','20120618 10:34:09'),
+		('www.leroyvisser.de','20120618 10:34:09'),
+		('www.leroyvisser.com','20120618 10:34:09'),
+		('www.leroyvisser.net','20120618 10:34:09'),
+		('www.leroyvisser.nu','20120618 10:34:09'),
+		('www.leroyvisser.tk','20120618 10:34:09');
+
+--checken of er date in staat
+SELECT UserID, Psswrd
+FROM Users;
