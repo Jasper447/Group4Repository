@@ -1,0 +1,176 @@
+﻿html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align:center;
+    padding:0px;
+    background-repeat: no-repeat;
+    background-image:url(dna-background.jpg);
+    background-size:50%;
+    background-position:center;
+    background-size:cover;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-top:auto;
+    margin: 0 auto;
+    text-align:center;
+}
+
+nav li {
+    float: left;
+}
+
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        /* Change the link color to #111 (black) on hover */
+        nav li a:hover {
+            background-color: #111;
+        }
+
+#container {
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    border: 1px solid rgb(51, 51, 51);
+    padding: 0px;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer {
+    width: 100%;
+    height: 70px;
+    background-color: #999;
+    position:absolute;
+    bottom:0;
+}
+
+.copyright {
+    width: 50%;
+    float: left;
+}
+#kaart h2{
+    text-align:center;
+}
+#kaart p{
+    width:800px;
+    text-align:center;
+}
+#footer p {
+    padding-left: 10%;
+    color: white;
+    font-size: 11px;
+    line-height: 70px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.social {
+    width: 50%;
+    float: right;
+}
+
+#footer a {
+    float: left;
+    line-height: 70px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttons {
+    background-color: RGBA(149, 82, 81, 1);
+    font-size: 19px;
+    width: 20%;
+}
+
+.home {
+    background-color: RGBA(149, 82, 81, 1);
+    font-size: 19px;
+    width: 30%;
+}
+
+.buttons:hover {
+    background-color: RGB(155, 35, 53);
+    font-size: 100%;
+}
+
+.home:hover {
+    background-color: RGB(155, 35, 53);
+    font-size: 100%;
+}
+contacth1 {
+    max-width:150px;
+    font-size: 35px;
+    border: 1px solid black;
+}
+
+#Contact {
+    position: absolute;
+    display: block;
+    height: 50px;
+    width: 200px;
+    margin-left:59%;
+    margin-right:3%;
+    padding: 0px;
+    top:430px;
+}
+
+input[type="text" i] {
+    margin: 5%;
+    margin-left: 0;
+}
+
+input[type="email" i] {
+    margin: 5%;
+    margin-left: 0;
+}
+
+input textarea {
+    margin: 5%;
+    margin-left: 0;
+}
+
+input[type="submit" i] {
+    box-sizing: border-box;
+    background-color: RGBA(149, 82, 81, 1);
+    border-color: RGBA(149, 82, 81, 1);
+}
+
+    input[type="submit" i]:hover {
+        background-color: RGBA(149, 82, 81, 0.8);
+        cursor: pointer;
+    }
+#kaart {
+    margin-left: 275px; 
+    margin-right: auto;
+    margin-top: -100px;
+    width:800px;
+    height:800px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 70px;
+}

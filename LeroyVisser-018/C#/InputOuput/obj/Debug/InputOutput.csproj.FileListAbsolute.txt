@@ -1,7 +1,0 @@
-C:\Users\slier\source\repos\Endoor018\Opdracht2\bin\Debug\InputOutput.exe.config
-C:\Users\slier\source\repos\Endoor018\Opdracht2\bin\Debug\InputOutput.exe
-C:\Users\slier\source\repos\Endoor018\Opdracht2\bin\Debug\InputOutput.pdb
-C:\Users\slier\source\repos\Endoor018\Opdracht2\obj\Debug\InputOutput.csprojAssemblyReference.cache
-C:\Users\slier\source\repos\Endoor018\Opdracht2\obj\Debug\InputOutput.csproj.CoreCompileInputs.cache
-C:\Users\slier\source\repos\Endoor018\Opdracht2\obj\Debug\InputOutput.exe
-C:\Users\slier\source\repos\Endoor018\Opdracht2\obj\Debug\InputOutput.pdb

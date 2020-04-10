@@ -1,5 +1,0 @@
-CREATE INDEX idx_Invoice_Date 
-ON Sales.Invoices (InvoiceDate);
-
-CREATE INDEX idx_Order_Date 
-ON Sales.Orders (OrderDate);

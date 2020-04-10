@@ -1,0 +1,39 @@
+<html>
+	
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta name="description" content= "Dit is een basis opmaak voor een HTML file">
+		
+		<title>Basic HTML index</title>
+		
+	</head>
+
+
+	
+
+
+	<body>
+		
+		<!--Tags voor opmaak  -->
+
+		<h1>Dit is een basis opmaak voor en HTML file...</h1>
+		<h2>Dit is een basis opmaak voor en HTML file...</h2>
+		<h3>Dit is een basis opmaak voor en HTML file...</h3>
+
+		<p>Dit is een <b>paragraaf</b></p>
+		<p>Dit is nog een <i>paragraaf</i></p>
+		<p>Dit is een derde <b><i>paragraaf</i></b></p>
+	
+	</body>
+
+
+
+
+
+
+
+
+</html>
+
+

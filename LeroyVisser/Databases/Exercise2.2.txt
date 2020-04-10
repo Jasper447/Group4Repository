@@ -1,0 +1,11 @@
+CREATE INDEX IDX_SalesLTcustomer_Companyname
+ON SalesLT.customer(CompanyName);
+
+CREATE INDEX IDX_SalesLTCustomer_LastName_FirstName
+ON SalesLT.customer(Lastname, FirstName);
+
+CREATE INDEX idx_SalesLTProduct_ProductCategoryID
+ON SalesLT.Product (ProductCategoryID);
+
+CREATE INDEX idx_SalesLTProduct_ModelID
+ON SalesLT.Product (ProductModelID);

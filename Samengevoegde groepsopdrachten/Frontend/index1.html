@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Website met informatie over de Covid-19 pandemie" />
+    <meta name="keywords" content="Corona, virus, Covid-19, pandemie, covid" />
+    <title>Corona-info</title>
+    <link rel="stylesheet" type="text/css" href="stijl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <header>
+                <img src="logo.png" alt="logo" style="width: 15%" />
+            </header>
+
+            <nav>
+                <ul id="nav">
+                    <li><a href="#countries"><i class="fa fa-fw fa-map-o"></i> Countries</a></li>
+                    <li><a href="#information"><i class="fa fa-fw fa-info"></i>Information</a></li>
+                    <li><a href="#history"><i class="fa fa-fw fa-history"></i>History</a></li>
+                    <li><a href="#current"><i class="fa fa-check-square-o" aria-hidden="true"></i>Current</a></li>
+                </ul>
+            </nav>
+            <div id="banner"></div>
+
+            <div id="container">
+                <div id="main">
+
+                </div>
+                <section id="kaart">
+                    <h2>Corona overzicht wereldwijd</h2>
+                    <p>Hieronder zie je een overzicht van de wereldwijde verspreiding van het Corona virus. Deze kaart is gemaakt door het John Hopkins ziekenhuis in de Verenigde Staten en wordt geupdate met de nieuwest informatie.</p>
+                    <iframe src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" width="800" height="600">Sorry</iframe>
+                </section>
+                <div id="Contact">
+                    <h1 class="contacth1">Contact Us</h1>
+                    <form action="/info@corona-info.nl">
+                        <label for="firstname">First Name: </label>
+                        <input type="text" id="firstname" placeholder="Enter your First Name.." checked>
+
+                        <label for="lastname">Last Name: </label>
+                        <input type="text" id="lastname" placeholder="Enter your Last Name.." checked>
+
+                        <label for="email">Your email address: </label>
+                        <input type="email" id="email" placeholder="Enter your Email Adress" checked>
+
+                        <label for="text">Subject</label>
+                        <textarea id="textarea" name="text" placeholder="Your text goes here.." style="height:200px"></textarea>
+
+                        <input id="submit" type="submit" value="Submit">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="copyright">
+                <p>Made by Endoor-Group 4 "Anas, Jasper, Leroy, Marco" All Rights Reserved &copy;</p>
+            </div>
+            <div class="social">
+                <a href="#" class="home">HOME</a>
+                <a href="#" class="buttons">ABOUT US</a>
+                <a href="#" class="home">GET IN TOUCH</a>
+                <a href="#" class="buttons">FAQ</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
