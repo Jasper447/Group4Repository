@@ -1,6 +1,10 @@
 ﻿html, body {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
 header {
@@ -17,10 +21,10 @@ nav ul {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    margin-top:auto;
+    background-color: #999;
+    margin-top: auto;
     margin: 0 auto;
-    text-align:center;
+    text-align: center;
 }
 
 nav li {
@@ -33,6 +37,8 @@ nav li {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        position:relative;
+        left:715px;
     }
 
         /* Change the link color to #111 (black) on hover */
@@ -41,7 +47,7 @@ nav li {
         }
 
 #container {
-    height: 100%;
+    height: 1800px;
     width: 70%;
     margin: auto;
     border: 1px solid rgb(51, 51, 51);
@@ -57,26 +63,26 @@ nav li {
     width: 100%;
     height: 70px;
     background-color: #999;
-    position:absolute;
+    position:sticky;
     bottom:0;
 }
 
 .copyright {
     width: 50%;
     float: left;
+    height:70px;
 }
-#kaart h2{
+#kaart h1{
     text-align:center;
 }
 #kaart p{
-    width:800px;
     text-align:center;
 }
 #footer p {
     padding-left: 10%;
     color: white;
     font-size: 11px;
-    line-height: 70px;
+    line-height: 50px;
     text-transform: capitalize;
     letter-spacing: 1px;
 }
@@ -87,12 +93,14 @@ nav li {
 }
 
 #footer a {
-    float: left;
+    float: right;
     line-height: 70px;
     text-decoration: none;
     color: white;
     text-align: center;
     font-weight: bold;
+    position:relative;
+    right:50px;
 }
 
 .buttons {
@@ -127,10 +135,9 @@ contacth1 {
     display: block;
     height: 50px;
     width: 200px;
-    margin-left:59%;
-    margin-right:3%;
     padding: 0px;
-    top:430px;
+    left:45%;
+    text-align:center;
 }
 
 input[type="text" i] {
@@ -159,7 +166,7 @@ input[type="submit" i] {
         cursor: pointer;
     }
 #kaart {
-    margin-left: 275px; 
+    margin-left: 200px; 
     margin-right: auto;
     margin-top: -100px;
     width:800px;
@@ -173,4 +180,88 @@ input[type="submit" i] {
 
 #content-wrap {
     padding-bottom: 70px;
+}
+
+#contactdiv {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    width: 800px;
+    height: 800px;
+}
+#contactdiv h1 {
+    text-align:center;
+}
+#contactdiv p {
+        text-align: center;
+}
+
+#informatiediv {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    width: 800px;
+    height: 2000px;
+    padding: 0px;
+    list-style: inside;
+}
+
+    #informatiediv h1 {
+        text-align: center;
+    }
+
+    #informatiediv p {
+        text-align: center;
+    }
+
+#faqdiv {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    width: 800px;
+    height: 1800px;
+    text-align: center;
+    list-style: inside;
+}
+
+    #faqdiv h1 {
+        text-align: center;
+    }
+
+    #faqdiv p {
+        text-align: center;
+    }
+
+#aboutdiv {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    width: 800px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-image: url(roctwente.png);
+    background-size: 50%;
+    background-position: center;
+}
+
+    #aboutdiv h1 {
+        text-align: center;
+    }
+
+    #aboutdiv p {
+        text-align: center;
+    }
+#informatie {
+    height:500px;
+    text-align:center;
+}
+#pandemie {
+    height: 700px;
+    text-align: center;
+}
+#coronavideo {
+    margin:100px auto 100px 200px;
+    width: 800px;
+    height: 800px;
+    text-align:center;
 }
