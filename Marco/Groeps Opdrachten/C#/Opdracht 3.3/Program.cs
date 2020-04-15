@@ -36,10 +36,12 @@ namespace Opdracht_3._3
             {
 
                 Console.WriteLine(o);
-
+                //niet tevreden met uitkomst, geeft eerste opgegeven nummer ook weer.
             }
 
                 
+
+
 
                 //for (string x = eerste; x <=)  ??????
 
@@ -48,10 +50,7 @@ namespace Opdracht_3._3
                 //n1 = Convert.ToInt32(txtNum1.Text);
                 //n2 = Convert.ToInt32(txtNum2.Text);
 
-                //for (int i = n1; i <= n2; i++)
-                //{
-                //    listBox1.Items.Add(i);
-                //}
+            
 
 
 

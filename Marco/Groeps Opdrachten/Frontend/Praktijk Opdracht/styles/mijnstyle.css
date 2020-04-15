@@ -1,37 +1,80 @@
-
-
-
-
-#top
+body
 {
-
-    background-color: RGBA(149, 82, 81, 1);
-    text-align: center;
-    width: auto;
-    height: auto;
+    
+    background-color: #999;
+    
+    
     
 }
 
-#top h2
+
+
+#A
+{
+    float: left;
+    text-align: center;
+    color: white;
+    background-color:RGBA(149, 82, 81, 1);
+    margin: 10px 10px 10px 10px;
+    width: 500px;
+    height: 200px;
+    
+}
+
+
+#B
+{
+    float: left;
+    text-align: center;
+    color: white;
+    background-color:RGBA(149, 82, 81, 1);
+    margin: 10px 10px 10px 50px;
+    width: 500px;
+    height: 200px;
+    
+}
+
+#C
+{
+    float: right;
+    text-align: left;
+    color: black;
+    background-color:RGBA(149, 82, 81, 1);
+    margin: 10px 10px 10px 10px;
+    width: 300px;
+    
+    
+}
+
+#C h1
+{
+    text-align: center;
+    color: white;
+
+}
+#C h2
 {
 
     color: white;
 
 }
-
-#top menu ul a
-
+#C h3
 {
-text-decoration: none;
-overflow: auto
+
+    text-align: left;
 
 }
 
 #bottom
 {
     
-
     
-
+    
+    text-align: center;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    padding-top: 250px;
+    
+    
 }
 

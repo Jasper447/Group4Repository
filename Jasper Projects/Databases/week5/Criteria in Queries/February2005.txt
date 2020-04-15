@@ -1,0 +1,11 @@
+USE WorldEvents
+
+SELECT
+EventName What,
+EventDate [When]
+
+FROM dbo.tblEvent
+
+WHERE
+MONTH(EventDate) = 2 AND
+YEAR(EventDate) = 2005
