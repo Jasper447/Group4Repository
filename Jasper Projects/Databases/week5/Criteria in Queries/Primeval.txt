@@ -1,0 +1,26 @@
+USE WorldEvents
+
+SELECT
+EventName
+
+FROM dbo.tblEvent
+
+WHERE CategoryId != 14 AND
+EventDetails LIKE '%Train%'
+
+SELECT
+EventName
+
+FROM dbo.tblEvent
+
+WHERE CountryID = 13 AND
+(EventName NOT LIKE '%Space%' AND
+EventDetails NOT LIKE '%Space%')
+
+SELECT
+EventName
+
+FROM dbo.tblEvent
+
+WHERE (CategoryID = 5 OR CategoryID = 6) AND
+(EventDetails NOT LIKE '%War%' AND EventDetails NOT LIKE '%Death%')

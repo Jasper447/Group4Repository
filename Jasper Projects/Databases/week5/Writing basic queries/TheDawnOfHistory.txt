@@ -1,0 +1,9 @@
+USE WorldEvents
+
+SELECT TOP 5 
+EventName What,
+EventDetails Details
+
+FROM dbo.tblEvent
+
+ORDER BY EventDate

@@ -1,0 +1,11 @@
+USE WorldEvents
+
+SELECT
+EventName,
+EventDate
+
+FROM dbo.tblEvent
+
+WHERE 
+EventName LIKE '%Teletubbies %' OR
+EventName LIKE '% Pandy %'

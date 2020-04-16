@@ -1,0 +1,19 @@
+USE WorldEvents
+
+SELECT TOP 2
+EventName What,
+EventDate [When]
+
+FROM
+dbo.tblEvent
+
+ORDER BY EventDate
+
+SELECT TOP 2
+EventName What,
+EventDate [When]
+
+FROM
+dbo.tblEvent
+
+ORDER BY EventDate DESC

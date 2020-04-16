@@ -1,0 +1,31 @@
+:root {
+  --grijsblauw: #31698a;
+  --grijszwart: #2a4b5a;
+  --oker:  #ffc107;
+  --krul-letters: 'Dancing Script', cursive;
+}
+
+h1, h2, h3 {
+  color: var(--grijszwart);
+  font-family: var(--krul-letters);
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.oker {
+  background-color: var(--oker);
+}
+
+#head-container {
+  background-color: var(--oker);
+}
+
+a {
+  color: var(--grijsblauw);
+}
+
+.header {
+  background-color: var(--oker);
+}

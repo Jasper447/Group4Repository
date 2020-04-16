@@ -10,7 +10,7 @@ namespace Opdracht_3._2
     {
         static void Main(string[] args)
         {
-            //opdracht 3.1 - Laat getallen 1 tot 25 op scherm zien
+            //opdracht 3.1 - Laat getallen 1 tot 25 op scherm zien, met daarachter het kwadraat.
 
 
 
