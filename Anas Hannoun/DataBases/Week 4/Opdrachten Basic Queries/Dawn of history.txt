@@ -1,3 +1,4 @@
+USE WorldEvents
 SELECT TOP 5
 	[EventName] AS WHAT,
 	[EventDetails] AS DETAILS

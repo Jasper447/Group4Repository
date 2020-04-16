@@ -1,3 +1,5 @@
+USE WorldEvents
+
 SELECT TOP 2
 	[EventName] AS [What],
 	[EventDate] AS [When]
